@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    background-color: lightgray;
+  }
+  /*nav bar*/
+  nav{
+    display: flex;
+    height: 64px;
+    max-height: 64px;
+    padding: 16 px 24px;
+    background-color: white;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+  }
+  .main-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none; /*เอาจุดของulออก*/
+    gap: 16px;
+    font-size: 24px;
+    color: black;
+    
+  }
+  a:link{
+    text-decoration: none; /*เอาเส้นใต้ของulออก*/
+  }
+  .text-in-main-menu{
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+
+  .navbar{
+    display: flex;
+    align-items: flex;
+    justify-content: space-between;
+  }
+  
+
+  /*section1*/
+  .section-1{
+    display: flex;
+    flex-direction: row;
+    padding: 32px 24px
+  }
+     
+  .textsection-1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: start;
+  }
+  .headtext{
+    font-size:32px;
+    text-align: center;
+    color: gray;
+    
+  }
+  .textinsection-1{
+    color: gray;
+    font-size: 32px;
+  }
+  .boxinsection-1{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    
+  }
+
+  /*section2*/
+  .section-2{
+    display: flex;
+    flex-direction: row;
+    padding: 32px 24px;
+    background-color: white;
+  }
+
+  .p1{
+    font-size: 64px;
+    text-align: center;
+  }
+  .box-1-insection-2{
+    display: flex;
+    flex-direction: row;
+  }
+  .box-2-insection-2{
+    display: flex;
+    flex-direction: row;
+  }.box-3-insection-2{
+    display: flex;
+    flex-direction: row;
+  }
+
+  /*section3*/
+  .section-3{
+    background-color: gray;
+ 
+  }
+  .headerinsection-3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 32px;
+}
+.boxinsection-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 32px 72px;
+    gap: 32px;
+   
+}
+
+.box-1-insection-3{
+    justify-content: center;
+    background-color: white;
+    
+   
+}
+.textinbox-1-section-3{
+    padding: 16px;
+    color: grey;
+}
+.box-2-insection-3{
+    justify-content: center;
+    background-color: white;
+    
+   
+}
+.textinbox-2-section-3{
+    padding: 16px;
+    color: grey;
+}
+.box-3-insection-3{
+    justify-content: center;
+    background-color: white;
+    
+   
+}
+.textinbox-3-section-3{
+    padding: 16px;
+    color: grey;
+}
+.box-4-insection-3{
+    justify-content: center;
+    background-color: white;
+    
+   
+}
+.textinbox-4-section-3{
+    padding: 16px;
+    color: grey;
+}
+.box-5-insection-3{
+    justify-content: center;
+    background-color: white;
+    
+   
+}
+.textinbox-5-section-3{
+    padding: 16px;
+    color: grey;
+}
+.box-6-insection-3{
+    justify-content: center;
+    background-color: white;
+    
+}
+.textinbox-6-section-3{
+    padding: 16px;
+    color: grey;
+}
+
+/*section4*/
+.section-4{
+    background-color: white;
+}
+
+.headerinsection-4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: grey;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
+}
+.insidesection-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.leftsideofsection-4{
+    margin: 32px 24px 24px 24px;
+   
+}
+.textinleftsidesection-4{
+    margin-top: 24px ;
+}
+.box-1-rightside-insection-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: gray;
+    padding: 16px;
+
+}
+.box-2-rightside-insection-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 16px;
+}
+.textinbox-2-section-4{
+    position: relative;
+
+}
